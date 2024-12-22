@@ -46,30 +46,28 @@
 
 ## 3. 역할분담
 ```
-  이진성 : ㅁㄴㅇㄹ   
-  김상운 :   
-  장대영 :   
+  이진성 : Arduino 동작코드, MQTT Data Network Setting
+  김상운 : RaspberryPi 탑재 Node-red 서버 개발
+  장대영 : 밴드 하드웨어 설계, 제작
 ```
 
 
 ## 4. 적용기술/개발환경
 ```
 HardWare
-- IoT 밴드 :
-  * node mcu : modelnumber 1234
-  * 자이로 센서 : modelnumber 1234
-  * 심박 센서 : modelnumber 1234
-  * 산소포화도 센서 : modelnumber 1234
-  * Bluetooth modem : modelnumber 1234
-
-- 데이터 중계기 :
-  * arduino nano ESP32(wifi 내장)
+- IoT Band :
+   * node mcu : ESP8266
+   * 3축 자이로 센서 : modelnumber 1234
+   * 심박 센서 : modelnumber 1234
+   * 산소포화도 센서 : modelnumber 1234
+- Server :
+   * Raspberry Pi 3B+
 
 SoftWare
-- 데이터 중계기 :
-  * C, Pytnon, MQTT protocol
+- IoT Band :
+   * C(Arduino), MQTT protocol
 - 모니터링 웹앱 :
-  * Node-red Server
+   * Node-red Server
 ```
 
 ## 5. 시스템 구성
