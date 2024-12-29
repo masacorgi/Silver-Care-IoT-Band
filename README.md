@@ -48,7 +48,7 @@
 ## 3. 역할분담
 ```
   이진성 : Arduino 동작코드, MQTT Data Network Setting
-  김상운 : RaspberryPi 탑재 Node-red 서버 개발
+  김상운 : Node-red 서버 개발
   장대영 : 밴드 하드웨어 설계, 제작
 ```
 
