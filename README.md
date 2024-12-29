@@ -58,11 +58,9 @@
 HardWare
 - IoT Band :
    * node mcu : ESP8266
-   * 3축 자이로 센서 : modelnumber 1234
-   * 심박 센서 : modelnumber 1234
-   * 산소포화도 센서 : modelnumber 1234
-- Server :
-   * Raspberry Pi 3B+
+   * 3축 자이로 센서
+   * 심박 센서
+   * 산소포화도 센서
 
 SoftWare
 - IoT Band :
